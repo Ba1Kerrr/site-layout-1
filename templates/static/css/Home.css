@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+
+
+
+ /* NAVIGATOR */
+
+a:link {          /* Check/disign in links */
+    color: white;
+  }
+  a:visited {
+    color: #ffffff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  a:active {
+    color: gray;
+    border-color:linear-gradient(white,gray)
+  }
+
+
+
+
+.header_logo{
+  font-size: 23.72px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  padding-left: 100px;
+    color: white;
+}
+
+header{
+    padding-top: 38px;
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+    background-color: #11071F;
+    font-size: 38px ;
+}
+
+nav > a{
+    padding-left: 5vh;
+}
+nav > button{
+    padding: 16px, 48px, 16px, 48px;
+    margin-left: 50px;
+}
+.Subs{
+    background: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+}
+
+
+/* HOME */
+.home{
+  background-image: url("/site-layout-1/templates/static/images/man-in-black-suit.png" ) ;
+  width: 100vw ;
+  height: 720px;
+}
+
+.text > h1{
+  font-size: 28px;
+  font-weight: 600;
+}
+.text > h2{
+  font-size: 56px;
+  font-weight: 700;
+}
+.name{
+  color:yellow
+}
+.button_home{
+  margin-top:100px ;
+  background-color: #FFD050;
+  border-color: #FFD050;
+  width: 204px;
+  height: 56px  ;
+  padding: 16px, 48px, 16px, 48px  ;
+  font-weight: 700;
+  font-size: 18px;
+
+}
+.text{
+  display: flexbox;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  padding-left: 100px;
+  width: 804px;
+  height: 400px;
+  top: 208px;
+
+
+}
+
+  /* NEWS/POSTS */
+.Posts{
+  display: flex;
+  margin-left:100px;
+}
+.Featured_name{
+  margin-bottom: 100px;
+}
+.Featured_Posts{
+  margin: 10px;
+}
+.Featured_Posts,.All_Post > h1{
+  font-size: 18px;
+}
+.Featured_Posts > p{
+  font-size: 18px;
+}
+.Featured_Posts > strong{
+  font-family: Sen;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+.All_Post{
+  margin-left: 100px;
+}
+.name-posts{
+  color:purple;
+}
